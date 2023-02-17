@@ -1,11 +1,11 @@
-with open('24.txt') as file:
+with open('24_demo.txt') as file:
     line = file.readline()
 
 radiants = [
-    'BAB',
-    'BAC',
-    'CAB',
-    'CAC',
+    'XYX',
+    'XYZ',
+    'ZYX',
+    'ZYZ',
 ]
 flag = 0
 max_count = count = 0
