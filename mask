@@ -1,7 +1,0 @@
-from fnmatch import fnmatch
-
-
-for i in range(4173, 10 ** 10, 4173):
-    num = str(i)
-    if fnmatch(num, '1?7246*1'):
-        print(i)
